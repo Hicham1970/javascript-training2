@@ -4,11 +4,14 @@
     // Pour plus d'informations, visitez : https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
+
+        
         {
             "type": "msedge",
             "request": "launch",
-            "name": "Open debugger.html",
-            "file": "e:\\Dev\\javascript\\W3school\\javascript training2\\fichiers Js\\debugger.html"
+            "name": "Debugging with Hicham",
+            "url":"http://localhost:5050",
+            "file": "e:\\Dev\\javascript\\W3school\\javascript training2\\fichiers Js\\debug.js"
         }
     ]
 }
