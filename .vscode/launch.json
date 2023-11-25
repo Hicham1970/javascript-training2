@@ -5,13 +5,25 @@
     "version": "0.2.0",
     "configurations": [
 
+
+    {
+        "name": "Attach to Edge",
+        "url": "http://localhost:5501"  ,
+        "request": "attach",
+        "type": "msedge",
+        "webRoot": "${workspaceFolder}"
+    },
         
+
         {
+            "name": "Lancer le debogage",
+            
             "type": "msedge",
             "request": "launch",
-            "name": "Debugging with Hicham",
-            "url":"http://localhost:5050",
-            "file": "e:\\Dev\\javascript\\W3school\\javascript training2\\fichiers Js\\debug.js"
-        }
+            "url": "http://127.0.0.1:3000/test.html",
+            "webRoot": "${workspaceFolder}"
+        },
+
+    
     ]
 }

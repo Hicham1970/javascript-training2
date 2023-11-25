@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Debug 3 Functions</title>
+  </head>
+  <body>
+    <h1>Debug 3 Functions</h1>
+    <p id="demo"></p>
+    <p id="deo"></p>
+    <p id="dem"></p>
+    <script>
+      // function to debug the first function
+      debugFunction1 = () => {
+          let x = 12;
+          let y = 3;
+          let z = x * y;
+          console.log(z);
+          document.getElementById("demo").innerHTML = z;
+      };
+      // function to debug the second function
+      function debugFunction2() {
+          let x = 82;
+          let y = 30;
+          let z = x * y;
+          document.getElementById("dem").innerHTML = z;
+        console.log(z);
+      }
+      // function to debug the third function
+      function debugFunction3() {
+          let x = 126;
+          let y = 33;
+          let z = x * y;
+          document.getElementById("deo").innerHTML = z;
+        console.log(z);
+      }
+      debugFunction1();
+      debugFunction2();
+      debugFunction3();
+    </script>
+  </body>
+</html>
