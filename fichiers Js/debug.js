@@ -25,3 +25,21 @@ console.log(typeof muString);
 let muObject2 = JSON.parse(muString);
 console.log(muObject2);
 console.log(typeof muObject2);
+
+
+firstName = "John";
+lastName = "Doe";
+
+price = 19.9;
+tax = 0.2;
+
+fullPrice = price + price * tax;
+
+const cars = ["Volvo", "Saab", "Fiat"];
+
+const person = {
+  firstName: "John",
+  lastName: "Doe",
+  age: 50,
+  eyeColor: "blue",
+};
