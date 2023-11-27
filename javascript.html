@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JavascriptDate</title>
+  </head>
+  <body>
+    <h1>How Javascript gives life to the html</h1>
+    <!--Creation a function called by a button click to display the time--->
+    <button type="button" onclick="myFunction()">
+      Click here to Display the Date
+    </button>
+    <p id="demo">Actual Date</p>
+    <p id="dem">Content</p>
+    <p id="image"></p>
+    <script>
+      //function that will be executed when the user clicks on the button
+      function myFunction() {
+        document.getElementById("demo").innerHTML = Date();
+      }
+      myFunction();
+
+      document.getElementById("demo").style.fontSize = "25px";
+      document.getElementById("demo").style.color = "red";
+      document.getElementById("demo").style.backgroundColor = "yellow";
+    //   document.getElementById("image").src= "img/ico.ico";
+
+      // using Javascript to display "Hello word" in the paragraph
+      document.getElementById("dem").innerHTML = "Hello World";
+    </script>
+  </body>
+</html>
