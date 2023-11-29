@@ -25,7 +25,6 @@ Object defineProperty()
 Function bind()
 Trailing commas-*/
 
-
 //   var fruits = ["Banana", "Orange", "Apple", "Mango"];
 //   var x = "";
 //   x = Array.isArray(fruits);
@@ -175,8 +174,6 @@ Trailing commas-*/
 // }
 // console.log(txt);
 
-
-
 // Create an Object:
 // var person = {
 //   firstName: "John",
@@ -196,7 +193,6 @@ Trailing commas-*/
 // // Display Language
 // var languageUpperCase = person.language;
 // console.log(languageUpperCase);//EN
-
 
 /*------------------------------------------*/
 // Function Bind()
@@ -242,10 +238,9 @@ Trailing commas-*/
 // const been = '{ "firstName":"Lom", "lastName":"Vlad", "age":99,}';
 // console.log(JSON.parse(been));
 
-
 // Array :
 // Allowed:
-points = [40, 100, 1, 5, 25, 10]
+points = [40, 100, 1, 5, 25, 10];
 
 // Not allowed:
-points = [40, 100, 1, 5, 25, 10,]
+points = [40, 100, 1, 5, 25, 10];
