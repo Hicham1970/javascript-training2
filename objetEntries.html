@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Objects entries()</title>
+  </head>
+  <body>
+    <h1>Create an objects</h1>
+    <p id="demo"></p>
+    <script>
+      const fruits = ["Banana", "Orange", "Apple", "Mango"];
+      const f = fruits.entries();
+
+      for (let x of f) {
+        document.getElementById("demo").innerHTML += x;
+      }
+    </script>
+  </body>
+</html>

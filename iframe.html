@@ -4,7 +4,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Iframe</title>
-    <link rel="stylesheet" href="iframe.css">
+    <link rel="stylesheet" href="iframe.css" />
+    <script>
+      function myFunction() {
+        document.getElementById("deo").innerHTML = "Hello JavaScript!";
+      }
+    </script>
   </head>
   <body>
     <h2>HTML Iframes</h2>
@@ -12,15 +17,14 @@
       You can use the height and width attributes to specify the size of the
       iframe:
     </p>
+    <p id=""></p>
 
-    <iframe
-      src="div.html"
-      name="iframe_a"
-      title="Iframe Example"
-    ></iframe>
-    <br>
-    <br>
-    <br>
-    <p ><a href="http://w3schooles.com" target="iframe_a">Go to the Iframe</a>></p>
+    <iframe src="div.html" name="iframe_a" title="Iframe Example"></iframe>
+    <br />
+    <br />
+    <br />
+    <p>
+      <a href="http://w3schooles.com" target="iframe_a">Go to the Iframe</a>>
+    </p>
   </body>
 </html>

@@ -144,3 +144,18 @@ JavaScript Modules---*/
 //   return value < 30;
 // }
 //   console.log(every);
+/*-------------------------*/
+
+// console.log(Number.isSafeInteger(10));    // returns true
+// console.log(Number.isSafeInteger(12345678901234567890));
+// // ::Safe integers are all integers from -(253 - 1) to +(253 - 1).
+// // This is safe: 9007199254740991. This is not safe: 9007199254740992.
+
+/*----------------*/
+
+const fruits = ["Banana", "Orange", "Apple", "Mango"];
+const f = fruits.entries();
+
+for (let x of f) {
+  document.getElementById("demo").innerHTML += x;
+}

@@ -1,0 +1,18 @@
+Ce code est utilisé pour afficher les index et les valeurs d'un tableau (dans ce cas, fruits) sur une page HTML en utilisant JavaScript. Voici une explication étape par étape :
+
+Déclaration du tableau fruits contenant plusieurs fruits : ["Banana", "Orange", "Apple", "Mango"].
+
+Utilisation de la méthode entries() sur le tableau fruits pour obtenir un objet "Iterable" qui contient les index et les valeurs du tableau : const f = fruits.entries();.
+
+Création d'une boucle for...of pour parcourir les éléments de l'objet "Iterable" f : for (let x of f) { ... }.
+
+Dans la boucle, l'élément actuel x est composé d'un index et d'une valeur. La valeur de x est affichée sur la page HTML en utilisant la méthode document.getElementById("demo").innerHTML += x;.
+
+Ce code donnera comme résultat l'affichage sur la page HTML de :
+
+Copy code
+0,Banana
+1,Orange
+2,Apple
+3,Mango
+En résumé, ce code permet d'afficher les index et les valeurs d'un tableau sur une page HTML en utilisant JavaScript.
