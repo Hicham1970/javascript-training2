@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Show Different Images</title>
+  </head>
+  <body>
+    <h1 style="font-size:10vw">Text size scale changing with the browser Width</h1>
+    <h2>Show Different Images Depending on Browser Width</h2>
+    <p>
+      Resize the browser width and the image will change at 600px and 1500px.
+    </p>
+
+    <picture>
+      <source srcset="img/Image1.gif" media="(max-width: 600px)" />
+      <source srcset="img/viking.png" media="(max-width: 1500px)" />
+      <source srcset="img/viking.png" />
+      <img src="img/viking.png" alt="Flowers" style="width: auto" />
+    </picture>
+  </body>
+</html>

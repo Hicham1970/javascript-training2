@@ -8,12 +8,12 @@ JavaScript Array includes()
 
 //JavaScript Exponentiation (**)
 
-// let x = 2;
-// let z = x ** 2;
-// console.log(z);
+let x = 2;
+let z = x ** 2;
+console.log(z);
 
-// let y = Math.pow(x, 2);
-// console.log(y);
+let y = Math.pow(x, 2);
+console.log(y);
 
 // JavaScript Exponentiation assignment (**=)
 
