@@ -38,7 +38,33 @@
           { "Name": "Tom Lee", "Age": "28", "Rank": "Second Engineer" },
           { "Name": "Pat Los", "Age": "40", "Rank": "Third Engineer" }
         ]
-      }
+      },
+      "Voyages": [
+        {
+          "From": "New York",
+          "To": "Casablanca",
+          "Product": "Scrap",
+          "Quantity": 4532.95
+        },
+        {
+          "From": "Casablanca",
+          "To": "Barcelona",
+          "Product": "Phosphate",
+          "Quantity": 4320
+        },
+        {
+          "From": "Barcelona",
+          "To": "Marseille",
+          "Product": "Scrap",
+          "Quantity": 4500
+        },
+        {
+          "From": "Marseille",
+          "To": "York",
+          "Product": "Scrap",
+          "Quantity": 4597.2
+        }
+      ]
     },
     {
       "Name": "Atlantic Island",
@@ -63,11 +89,11 @@
         "Pay attention to fall"
       ],
       "Crew Members": {
-        "Officers": {
-          "Captain": "Moly Scan",
-          "First Officer": "Ji Leo",
-          "Second Officer": "Eva Qur"
-        },
+        "Officers": [
+          { "Captain": "Moly Scan", "from": "Liverpool", "Experience": 23 },
+          { "First Officer": "Ji Leo", "from": "Liverpool", "Experience": 23 },
+          { "Second Officer": "Eva Qur", "from": "Liverpool", "Experience": 23 }
+        ],
         "Deckhands": [
           { "Name": "Mic Sun", "Age": "44", "Rank": "Deckhand" },
           { "Name": "LaK StU", "Age": "27", "Rank": "Cok" },
@@ -77,6 +103,32 @@
           { "Name": "Jan Bol", "Age": "30", "Rank": "Engineer" },
           { "Name": "Rome Lem", "Age": "28", "Rank": "Second Engineer" },
           { "Name": "Pata xLos", "Age": "40", "Rank": "Third Engineer" }
+        ],
+        "Voyages": [
+          {
+            "From": "New York",
+            "To": "Casablanca",
+            "Product": "Scrap",
+            "Quantity": 4532.95
+          },
+          {
+            "From": "Casablanca",
+            "To": "Barcelona",
+            "Product": "Phosphate",
+            "Quantity": 4320
+          },
+          {
+            "From": "Barcelona",
+            "To": "Marseille",
+            "Product": "Scrap",
+            "Quantity": 4500
+          },
+          {
+            "From": "Marseille",
+            "To": "York",
+            "Product": "Scrap",
+            "Quantity": 4597.2
+          }
         ]
       }
     }

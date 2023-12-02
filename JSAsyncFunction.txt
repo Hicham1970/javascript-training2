@@ -1,0 +1,21 @@
+Explication du code qui se trove dans le script de JSAsyncFunction.html:
+
+
+The code is using async/await syntax. Here's a step-by-step explanation:
+
+async function myDisplay() { ... } - This declares an asynchronous function named myDisplay.
+
+Inside the function, let myPromise = new Promise(function (resolve) { ... }); - This creates a new promise called myPromise. The promise takes a function that contains a single argument, resolve. The resolve function is used to resolve the promise.
+
+setTimeout(function () { ... }, 3000); - Inside the promise, a timer is set to wait for 3000 milliseconds (3 seconds) before executing the specified function.
+
+Inside the setTimeout function, resolve("I love You !!"); - This line resolves the promise and passes the string "I love You !!" to the function that was waiting for the promise to be resolved.
+
+document.getElementById("demo").innerHTML = await myPromise; - After the timer has completed, this line sets the content of the HTML element with the id "demo" to the value that was passed when the promise was resolved.
+
+Finally, myDisplay(); - This line calls the myDisplay function, which then proceeds to update the HTML content of the "demo" element.
+
+The result of this code is that after 3 seconds, the text "I love You !!" will be displayed in the HTML element with the id "demo".
+
+
+
